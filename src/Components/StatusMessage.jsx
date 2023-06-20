@@ -7,7 +7,7 @@ const StatusMessage = ({ winner, isXNext, squares }) => {
     if (winner) {
       return (
         <>
-          The Winner is{' '}
+          Yeh! The Winner is Player{' '}
           <span className={isXNext ? 'text-orange' : 'text-green'}>
             {winner}
           </span>
